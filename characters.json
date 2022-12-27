@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0001",
+    "class": "None-Mutated Human",
+    "weapon": "Knives",
+    "description": "A none-mutated human (NMH) almost looks like humans today, but they're somewhat more resilient and though. They don't like mutants, even if they were the ones that created them. The most NMH's consider they've got the rights to rule over mutants, mutated animals and robots."
+  },
+  {
+    "id": "0002",
+    "class": "Mutated Human",
+    "weapon": "Machinegun",
+    "description": "Mutated Humans have physical mutations that are both good and bad, the bad ones are called defects. Mutants often sees themself as less worthy than NMH, and some see their mutations making them stronger. Mutants are often very tolerant to other classes."
+  },
+  {
+    "id": "0003",
+    "class": "Psi-Mutant",
+    "weapon": "Pistol",
+    "description": "A Psi-mutant is a mentally mutated human. They have released powers in their brain, such as telepathic and teleknesis. But while their brains have developed, their bodies have weakend. Psi-mutants only has mental mutations, they're always humans, never animals. Psi-mutants recents physical violence, they appreciate intelligence in all forms. Psi-mutants are often secret about their powers, because NMH's thinks they are weird and filled with evil forces."
+  },
+  {
+    "id": "0004",
+    "class": "Robot",
+    "weapon": "Ray-gun",
+    "description": "A robot is a humanoid looking machine with arificiell intelligence. The robots were manufactured before the great plague. They are made out of plastic and metal. Robots also have the extra skill 'repair', which is good for repairing broken objects. They also have the property 'obedience', so there's always a slight chance that they will follow orders from a NMH. It's not always possible to look at a robot and tell it is a robot, they are very humanlike."
+  },
+  {
+    "id": "0005",
+    "class": "Mutated Animal",
+    "weapon": "Ray-gun",
+    "description": "The animals either have physical or mental mutations. They often have physical than mental mutations though. Mutated animals can speak and have developed ther front paws to hands, which make them walk upright. Mutated animals often live in areas with their own kind, where no humans live. And also by species, like dogs for themselfs and lions by themself. They have difficulty understanding other cultures, but they are very tolerante to other classes."
+  },
+  {
+    "id": 6,
+    "class": "Psi-Mutant",
+    "weapon": "Baseballbat",
+    "description": "Jag är en psi-mutant!"
+  }
+]

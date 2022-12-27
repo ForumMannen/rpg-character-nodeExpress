@@ -1,0 +1,26 @@
+GET http://localhost:3000/api
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/api/2349234832492384
+
+###
+
+POST http://localhost:3000/api/add
+Content-Type: application/json
+
+{
+    "id": "",
+    "class": "Psi-Mutant",
+    "weapon": "Baseballbat",
+    "description": "Jag är en psi-mutant!"
+}
+
+###
+
+PUT http://localhost:3000/api/update/38823829384092834
+
+###
+
+DELETE http://localhost:3000/api/delete/293asdas
