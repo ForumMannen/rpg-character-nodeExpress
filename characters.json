@@ -19,15 +19,15 @@
   },
   {
     "id": "0004",
-    "class": "Robot",
-    "weapon": "Ray-gun",
-    "description": "A robot is a humanoid looking machine with arificiell intelligence. The robots were manufactured before the great plague. They are made out of plastic and metal. Robots also have the extra skill 'repair', which is good for repairing broken objects. They also have the property 'obedience', so there's always a slight chance that they will follow orders from a NMH. It's not always possible to look at a robot and tell it is a robot, they are very humanlike."
+    "class": "test",
+    "weapon": "test",
+    "description": "test"
   },
   {
-    "id": "0005",
-    "class": "Mutated Animal",
-    "weapon": "Ray-gun",
-    "description": "The animals either have physical or mental mutations. They often have physical than mental mutations though. Mutated animals can speak and have developed ther front paws to hands, which make them walk upright. Mutated animals often live in areas with their own kind, where no humans live. And also by species, like dogs for themselfs and lions by themself. They have difficulty understanding other cultures, but they are very tolerante to other classes."
+    "id": 6,
+    "class": "test",
+    "weapon": "test",
+    "description": "test"
   },
   {
     "id": 6,

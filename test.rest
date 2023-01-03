@@ -3,7 +3,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/api/2349234832492384
+GET http://localhost:3000/api/0003
 
 ###
 
@@ -19,8 +19,15 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3000/api/update/38823829384092834
+PUT http://localhost:3000/api/update/0004
+Content-Type: application/json
+
+{
+    "class": "test",
+    "weapon": "test",
+    "description": "test"
+}
 
 ###
 
-DELETE http://localhost:3000/api/delete/293asdas
+DELETE http://localhost:3000/api/delete/0005
