@@ -29,6 +29,7 @@ app.post('/api/add', (req, res) => {
         const characters = JSON.parse(data)
         const newCharacter = {
             id: characters.length + 1,
+            characterName: req.body.name,
             class: req.body.class,
             weapon: req.body.weapon,
             description: req.body.description
@@ -53,6 +54,7 @@ app.put('/api/update/:id', (req, res) => {
         } else {
             characters.find((character) => {
                 if(character.id == req.params.id){
+                    character.characterName = req.body.characterName,
                     character.class = req.body.class,
                     character.weapon = req.body.weapon,
                     character.description = req.body.description

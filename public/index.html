@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <script src="script.js" defer></script>
-    <title>Mutant 2 Characters</title>
+    <title>Mutant Characters</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Mutant Characters</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="characterName">Character name:</label><br>
+            <input type="text" id="characterNameInput" name="characterName"><br>
+            <label for="class">Class:</label><br>
+            <select name="class" id="classSelector">
+                <option value=""></option>
+                <option value="None-Mutated Human">None-Mutated Human (NMH)</option>
+                <option value="Mutated Human">Mutated Human</option>
+                <option value="Psi-Mutant">Psi-Mutant</option>
+                <option value="Robot">Robot</option>
+                <option value="Mutated Animal">Mutated Animal</option>
+            </select><br>
+            <label for="weapon">Weapon:</label><br>
+            <input type="text" id="weaponInput" name="weapon"><br>
+            <label for="description">Description:</label><br>
+            <textarea id="descriptionInput" name="description" placeholder="Short description of your character..."></textarea><br>
+            <p contenteditable="true" id="test_field"></p>
+            <button id="createButton">Create</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

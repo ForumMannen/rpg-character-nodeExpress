@@ -12,6 +12,7 @@ Content-Type: application/json
 
 {
     "id": "",
+    "name": "Clark",
     "class": "Psi-Mutant",
     "weapon": "Baseballbat",
     "description": "Jag är en psi-mutant!"
@@ -19,10 +20,11 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3000/api/update/0004
+PUT http://localhost:3000/api/update/0003
 Content-Type: application/json
 
 {
+    "characterName": "test",
     "class": "test",
     "weapon": "test",
     "description": "test"
@@ -30,4 +32,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/api/delete/0005
+DELETE http://localhost:3000/api/delete/0007
