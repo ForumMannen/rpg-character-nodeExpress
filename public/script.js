@@ -27,7 +27,6 @@ async function printCharacters(){
             const characterName = document.createElement("p");
             characterName.setAttribute("contenteditable", "true");
             characterName.innerHTML = character.characterName;
-            const hejhopp = [{id: character.id, characterName: characterName.innerHTML}];
             characterContainers.appendChild(characterName);
             const characterClass = document.createElement("p");
             characterClass.innerText = "Class: " + character.class;
@@ -52,6 +51,7 @@ async function printCharacters(){
             updateButton.addEventListener("click", (e) => {
                 e.preventDefault();
                 e.stopPropagation();
+                const hejhopp = [{id: character.id, characterName: characterName.innerHTML}];
                 updateCharacter(hejhopp);
                 console.log(hejhopp);
         });
@@ -59,23 +59,7 @@ async function printCharacters(){
 }
 
 printCharacters();
-// fetch ("http://localhost:3000/api").then((response) => {
-//     return response.json()
-// }).then((data) => {
-//     printCharacters(data)
-// }).catch((error) => {
-//     console.warn('Something went wrong!', error)
-// });
 
-// fetch ("http://localhost:3000/api/add", {
-//     method: 'POST'
-// }).then((response) => {
-//     return response.json()
-// }).then((data) => {
-//     addNewCharacter(data)
-// }).catch((error) => {
-//     console.warn('Something went wrong!', error)
-// });
 createButton.addEventListener("click", (e) => {
     // hittepau();
     addNewCharacter();
@@ -99,7 +83,7 @@ const addNewCharacter = async () => {
 };
 
 async function updateCharacter(data){
-    console.log(data.characterName);
+    console.log(data);
     const response = await fetch (`http://localhost:3000/api/update/${data.id}`, {
         method: "PUT",
         headers: {
@@ -114,17 +98,3 @@ async function updateCharacter(data){
     })
     return response.json();
 };
-
-
-
-// function addNewCharacter(character){
-//     const formData = {
-//         characterName: name,
-//         class: characterClass,
-//         weapon: weapon,
-//         description: description
-//     };
-
-// }
-
-
