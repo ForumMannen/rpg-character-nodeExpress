@@ -1,6 +1,8 @@
 # rpg-character-nodeExpress
 En applikation där man kan skapa, redigera, radera och söka efter Rollspelskaraktärer.
 
+#####
+
 För att installera:
 1. Öppna mappen i VSCODE
 2. Öppna terminalen och skriv 'npm install' för att installera alla dependecies för projektet
@@ -8,10 +10,14 @@ För att installera:
 4. Skriv 'localhost:3000' i din webbläsare
 5. Klart!
 
+#####
+
 Frontend är byggt med HTML, CSS och JavaScript.
 Backend är byggt med en Node/Express-server.
 
-Jag har siktat på betyget Väl godkänt
+#####
+
+Jag har siktat på betyget Väl godkänt och nedanstående krav är uppfyllda:
 
 Krav för godkänt:
 
@@ -29,3 +35,5 @@ Krav för väl godkänt:
 1. Alla punkter för godkänt är uppfyllda
 2. Ett klient-gränssnitt skall byggas för att anropa API:ets alla olika endpoints och presentera datan, redigeringsformulär skall fyllas i med befintlig information.
 3. Ytterligare en GET endpoint skall läggas till där det går att hämta ett specifikt objekt
+
+#####
