@@ -14,29 +14,38 @@
     </header>
 
     <main>
-        <form>
-            <label for="characterName">Character name:</label><br>
-            <input type="text" id="characterNameInput" name="characterName"><br>
-            <label for="class">Class:</label><br>
-            <select name="class" id="classSelector">
-                <option value=""></option>
-                <option value="None-Mutated Human">None-Mutated Human (NMH)</option>
-                <option value="Mutated Human">Mutated Human</option>
-                <option value="Psi-Mutant">Psi-Mutant</option>
-                <option value="Robot">Robot</option>
-                <option value="Mutated Animal">Mutated Animal</option>
-            </select><br>
-            <label for="weapon">Weapon:</label><br>
-            <input type="text" id="weaponInput" name="weapon"><br>
-            <label for="description">Description:</label><br>
-            <textarea id="descriptionInput" name="description" placeholder="Short description of your character..."></textarea><br>
-            <p contenteditable="true" id="test_field"></p>
-            <button id="createButton">Create</button>
-        </form>
+        <div id="left_content">
+            <form>
+                <label for="characterName">Character name:</label><br>
+                <input type="text" id="characterNameInput" name="characterName"><br>
+                <label for="class">Class:</label><br>
+                <select name="class" id="classSelector">
+                    <option value=""></option>
+                    <option value="None-Mutated Human">None-Mutated Human (NMH)</option>
+                    <option value="Mutated Human">Mutated Human</option>
+                    <option value="Psi-Mutant">Psi-Mutant</option>
+                    <option value="Robot">Robot</option>
+                    <option value="Mutated Animal">Mutated Animal</option>
+                </select><br>
+                <label for="weapon">Weapon:</label><br>
+                <input type="text" id="weaponInput" name="weapon"><br>
+                <label for="description">Description:</label><br>
+                <textarea rows="5" cols="27" id="descriptionInput" name="description" placeholder="Short description of your character..."></textarea><br>
+                <p contenteditable="true" id="test_field"></p>
+                <button id="createButton">Create</button>
+            </form>
+
+            <div class="search-result">
+                <label for="searchInput">Search name:</label><br>
+                <input type="text" id="searchInput" name="searchInput">
+                <button id="searchButton">Search</button>
+                <div id="searchResult"></div>
+            </div>
+        </div>
+
+        <section>
+            
+        </section>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>
