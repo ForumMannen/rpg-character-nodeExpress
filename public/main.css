@@ -21,8 +21,32 @@ header h1 {
     font-size: 4em;
 }
 
+#left_content {
+    padding: 1rem;
+}
+
+.characterContainer {
+    width: 20em;
+    padding: 1rem;
+}
+
+.deleteButton {
+    margin-right: 0.5rem;
+}
+
 main {
     display: flex;
     min-height: 100%;
-    justify-content: center;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+form input {
+    width: 100%;
+}
+
+form select {
+    width: 100%;
 }

@@ -3,7 +3,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/api/0003
+GET http://localhost:3000/api/Conny
 
 ###
 
@@ -12,7 +12,7 @@ Content-Type: application/json
 
 {
     "id": "",
-    "name": "Clark",
+    "characterName": "Clark",
     "class": "Psi-Mutant",
     "weapon": "Baseballbat",
     "description": "Jag är en psi-mutant!"
